@@ -1,0 +1,161 @@
+#header{
+                width: 100%;
+                margin: 0px;
+                height: 65px;
+                background-color:white;
+                border-color: buttonface;
+                box-shadow: 0px 3px 3px grey;
+                position: fixed;
+                z-index: 1;
+            }
+            #logo{
+                width:200px;
+                width: 10%;
+                margin-left:10%;
+                float: left;
+                
+                margin-top: 15px;
+            }
+            #menu_bar{
+ 
+            float:left;
+            width:auto;
+            height:100%;
+                
+            }
+            #menu_bar ul{
+             list-style-type:none;      
+            }
+            #menu_bar ul li:hover{
+                color: #e67e22;
+             
+                border-bottom:3px solid red;
+            }
+            
+            #menu_bar ul li{
+            padding: 12px;
+            height: 100%;
+            float:left;
+            cursor: pointer;
+            margin-left: 1px;
+            
+   
+            }
+            #menu_icon{
+             
+             width: 35px;
+             height: auto;
+             margin-top:5%;
+             right: 10px;
+             cursor: pointer;
+             display: none;
+             position: fixed;
+            }
+            .menu{
+              width: 30px;
+              height: 3px;
+              background-color:gray;
+              margin: 3px 0;
+            }
+            #follow_link{
+                float: right;
+                height: 100%;
+                width:20%;
+                margin-right: 50px;
+                cursor: pointer;
+                
+            }
+            .follow_icon{
+                width: 30px;
+                height: 30px;
+                border-radius: 17px;
+                margin-top: 20px;
+                position: relative;
+                cursor: pointer;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            #login_bt{
+                right:10px;
+                padding: 2px;
+                padding-left: 15px;
+                padding-right: 15px;
+                display: block;
+                background-color:#3498db;
+                position:fixed;
+                color: white;
+                margin-top: 22px;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+            #login_bt:hover{
+                background-color: #2ecc71;
+            }
+            #login_box{
+                right: 0px;
+                width: 300px;
+                height: 400px;
+                background-color:#e67e22;
+                display: none;
+                position:fixed;
+                z-index: 1;
+                top:65px;
+                right: 0px;
+                
+            }
+             input{
+                width: 80%;
+                float: left;
+                margin-left: 8%;
+                margin-top: 20px;
+                padding: 7px;
+                font-size: 15px;
+                color: grey;
+                
+            }
+            #login_sbt{
+              display: block;
+              color: white;
+              background-color:#4286f4;
+              border-radius:3px;
+              font-family: monospace;
+              border: 0px;
+              cursor: pointer;  
+              width: 85%;
+            }
+            #c_ac_bt{
+              display: block;
+              color: white;
+              padding: 9px;
+              background-color:#2ecc71;
+              border-radius:3px;
+              font-family: monospace;
+              border: 0px;
+              cursor: pointer;  
+              width: 80%;  
+              text-align: center;
+              margin-left: 8%;
+            }
+            #user_icon{
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                right: 20px;
+                top:10px;
+                border-radius: 20px;
+            }
+            #user_box{
+                right: 0px;
+                width: 270px;
+                height: 400px;
+                background-color:#e67e22;
+                display: none;
+                position:fixed;
+                z-index: 1;
+                top:65px;
+                
+                
+            }
+            

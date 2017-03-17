@@ -1,0 +1,152 @@
+ #doctor{
+                width: 100%;
+                height:auto;
+                float: left;
+                margin-top: 65px;
+            }
+            #doctor_header{
+                width: 100%;
+                height: 80px;
+                background-color: whitesmoke;
+                color: gray;
+                
+                position: absolute;
+            }
+            
+            #doctor_title{
+                color: black;
+                font-size: 30px;
+                margin-left: 80px;
+                margin-top:30px;
+            } 
+            #side_bar{
+                width: 20%;
+                float: left;
+                height:700px;
+                background-color: whitesmoke;
+               
+                margin-top: 80px;
+                display: none;
+                
+            }
+            #menu_icon_d{
+             
+             width: 35px;
+             height: 40%;
+             margin-top:35px;
+             margin-left: 50px;
+             cursor: pointer;
+             position: absolute;
+            
+            }
+            .menu_d{
+              width: 20px;
+              height: 4px;
+              background-color:gray;
+              margin: 3px;
+            }
+            
+            .doctor_operation{
+                display: none;
+                margin-left: 30px;
+                list-style-type:circle;
+            }
+            .hospital_operation{
+                display: none;
+                margin-left: 30px;
+                list-style-type:circle;
+            }
+            .ambulance_operation{
+                display: none;
+                margin-left: 30px;
+                list-style-type:circle;
+            }
+            .pharmacy_operation{
+                display: none;
+                margin-left: 30px;
+                list-style-type:circle;
+            }
+            .blood_operation{
+                display: none;
+                margin-left: 30px;
+                list-style-type:circle;
+            }
+            .blood_operation{
+                display: none;
+                margin-left: 30px;
+                list-style-type:circle;
+            }
+            li{
+                cursor: pointer;
+            }
+            .insert_table{
+                width: 60%;
+                height: 900px;
+                display: none;
+                margin-left: 25%;
+                border:1px solid gray; 
+                margin-top: 100px;
+                position: absolute;
+                z-index:initial;
+            }
+            h2{
+                margin-left: 35%;
+            }
+            h3{
+                position: absolute;
+                top: -10px;
+                right: 10px;
+               
+            }
+            #close{
+                cursor: pointer;
+            }
+            #page_upper{
+                position: fixed;
+                bottom:0px;
+                right: 20px;
+                cursor: pointer;
+                font-size: 40px;
+                display: block;
+                
+            }
+            #page_upper:hover{
+                background-color: #3498db;
+                color: white;
+            }
+            #admin_label{
+                width: 70%;
+                color: red;
+                float: left;
+                margin-left: 10%;
+            }
+            #admin_input{
+                width: 70%;
+                padding: 2px;
+                margin-left: 10%;
+                
+            }
+            @media all and (max-width: 800px) {
+                #side_bar{
+                    display: none;
+                }
+                #doctor_header{
+                    height: 40px;
+                }
+                #doctor_title{
+                    font-size: 20px;
+                    margin-left:35px;
+                    margin-top: 7px;
+                     
+                }
+                #menu_icon_d{
+                    left: 3px;
+                    margin-top: 5px;
+                }
+                #side_bar{
+                    width: 100%;
+                    display: none;
+                    margin-top: 40px;
+                }
+            }
+
