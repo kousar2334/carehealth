@@ -35,6 +35,7 @@ $(document).ready(function(){
           //cardiac link
           $("#cardiac_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#cardiac_link").text();
           $.ajax({
               method:"post",
@@ -49,6 +50,7 @@ $(document).ready(function(){
           //cancer link
           $("#cancer_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#cancer_link").text();
           $.ajax({
               method:"post",
@@ -63,6 +65,7 @@ $(document).ready(function(){
           //medicine link
           $("#medicine_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#medicine_link").text();
           $.ajax({
               method:"post",
@@ -77,6 +80,7 @@ $(document).ready(function(){
           //nurology link
           $("#nurology_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#nurology_link").text();
           $.ajax({
               method:"post",
@@ -91,6 +95,7 @@ $(document).ready(function(){
           //skin and sex link
           $("#skin_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#sklin_link").text();
           $.ajax({
               method:"post",
@@ -105,6 +110,7 @@ $(document).ready(function(){
           //neck link
           $("#neck_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#neck_link").text();
           $.ajax({
               method:"post",
@@ -119,6 +125,7 @@ $(document).ready(function(){
           //eye link
           $("#eye_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#eye_link").text();
           $.ajax({
               method:"post",
@@ -133,6 +140,7 @@ $(document).ready(function(){
           //child link
           $("#child_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#child_link").text();
           $.ajax({
               method:"post",
@@ -147,6 +155,7 @@ $(document).ready(function(){
           //dentist link
           $("#dentist_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var name=$("#dentist_link").text();
           $.ajax({
               method:"post",
