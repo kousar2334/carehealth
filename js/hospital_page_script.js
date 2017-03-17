@@ -38,6 +38,7 @@ $(document).ready(function(){
            //govt college and hospital link
            $("#govt_college_hospital_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var type=$("#govt_college_hospital_link").text();
           $.ajax({
               method:"post",
@@ -52,6 +53,7 @@ $(document).ready(function(){
           //govt hospital link
           $("#govt_hospital_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var type=$("#govt_hospital_link").text();
           $.ajax({
               method:"post",
@@ -66,6 +68,7 @@ $(document).ready(function(){
           //private hospital link
           $("#private_hospital_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var type=$("#private_hospital_link").text();
           $.ajax({
               method:"post",
@@ -80,6 +83,7 @@ $(document).ready(function(){
           //eye hospital link
           $("#eye_hospital_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var type=$("#eye_hospital_link").text();
           $.ajax({
               method:"post",
@@ -94,6 +98,7 @@ $(document).ready(function(){
           //maternal center link
           $("#maternal_hospital_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var type=$("#maternal_hospital_link").text();
           $.ajax({
               method:"post",
@@ -108,6 +113,7 @@ $(document).ready(function(){
           //clink link
           $("#clinic_link").click(function(){
            $("#view_content").hide();
+            $("#side_bar").hide();
           var type=$("#clinic_link").text();
           $.ajax({
               method:"post",
