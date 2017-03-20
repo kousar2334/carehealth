@@ -84,8 +84,26 @@ and open the template in the editor.
         <p id="close_login"style="color:white;float: right;font-size: 40px;margin-top: 0px;margin-right: 5px;cursor: pointer">&times;</p>
         <h1 style="margin-left:100px;color: white">লগ ইন</h1>
         <form action="../controll/user/sign_in.php" method="POST"> 
-         <input type="text" name="email" placeholder="User name or Email">
-        <input type="password" name="password" placeholder="password">
+            <p style="color:white;margin-left: 10%;">    <?php
+                if(isset($_SESSION['empty_email_error'])&& !empty($_SESSION['empty_email_error'])){
+                    echo $_SESSION['empty_email_error'];
+                    unset($_SESSION['empty_email_error']);
+                }
+                 if(isset($_SESSION['empty_password_error'])&& !empty($_SESSION['empty_password_error'])){
+                    echo $_SESSION['empty_password_error'];
+                    unset($_SESSION['empty_password_error']);
+                }
+                 if(isset($_SESSION['both_empty_error'])&& !empty($_SESSION['both_empty_error'])){
+                    echo $_SESSION['both_empty_error'];
+                    unset($_SESSION['both_empty_error']);
+                }
+                 if(isset($_SESSION['login_error'])&& !empty($_SESSION['login_error'])){
+                    echo $_SESSION['login_error'];
+                    unset($_SESSION['login_error']);
+                }
+                ?></p>
+            <input type="text" name="email" placeholder="User name or Email" id="email">
+            <input type="password" name="password" placeholder="password" id="password">
         <input type="submit" name="login" value="লগ ইন" id="login_sbt">
         </form><br><br>
         <p style="color:white;margin-left: 130px">OR</p>
