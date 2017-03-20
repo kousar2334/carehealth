@@ -97,7 +97,7 @@ class User {
     }
     public function login(){
         session_start();
-        if(isset($this->email)&& !empty($this->password)){
+        if(!empty($this->email)&& !empty($this->password)){
             $query="SELECT * FROM `user` WHERE email='$this->email' && password='$this->password'";
             $result=mysql_query($query);
             $row=mysql_fetch_assoc($result);
@@ -106,10 +106,21 @@ class User {
                 $_SESSION['user']=$row;
                 header('location:../../view/index.php');
             }
-           
+       else {
+            $_SESSION['login_error']="Invalid email or password";
+            header('location:../../view/index.php');
+       }
         }
- else {
-        $_SESSION['loginerro']="";    
+        elseif (empty ($this->email)) {
+        $_SESSION['empty_email_error']="Email is empty";
+        header('location:../../view/index.php');
+    }
+    elseif (empty ($this->password)) {
+        $_SESSION['empty_password_error']="Password is empty";
+        header('location:../../view/index.php');
+    }
+  else {
+        $_SESSION['both_empty_error']="Email and password are empty";    
         } 
     }
 }
