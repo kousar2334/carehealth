@@ -1,6 +1,42 @@
+#header_upprer{
+               width: 100%;
+                height: 25px;
+                position: fixed;
+                background-color:#ecf0f1;
+                 z-index: 1;
+             }
+ #language_option{
+                width: 15%;
+                position: fixed;
+                right: 180px;
+             }
+#english_bt{
+            padding: 1px;
+            position: relative;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color:gray;
+            color: white;
+            font-size: 13px;
+           
+            top:2px;
+            }
+            #english_bt:active{
+                background-color: blue;
+            }
+#bangla_bt{
+            padding: 1px;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: relative;
+            background-color:gray;
+            color: white;
+            font-size: 13px;
+            top:2px; 
+             }            
 #header{
                 width: 100%;
-                margin: 0px;
+                top: 25px;
                 height: 65px;
                 background-color:white;
                 border-color: buttonface;
@@ -8,7 +44,8 @@
                 position: fixed;
                 z-index: 1;
             }
-            #logo{
+   #logo{
+  
                 width:200px;
                 width: 10%;
                 margin-left:10%;
@@ -16,23 +53,23 @@
                 
                 margin-top: 15px;
             }
-            #menu_bar{
+ #menu_bar{
  
             float:left;
             width:auto;
             height:100%;
                 
             }
-            #menu_bar ul{
+ #menu_bar ul{
              list-style-type:none;      
             }
-            #menu_bar ul li:hover{
+ #menu_bar ul li:hover{
                 color: #e67e22;
              
                 border-bottom:3px solid red;
             }
             
-            #menu_bar ul li{
+ #menu_bar ul li{
             padding: 12px;
             height: 100%;
             float:left;
@@ -41,7 +78,7 @@
             
    
             }
-            #menu_icon{
+ #menu_icon{
              
              width: 35px;
              height: auto;
@@ -51,33 +88,38 @@
              display: none;
              position: fixed;
             }
-            .menu{
+ .menu{
               width: 30px;
               height: 3px;
               background-color:gray;
               margin: 3px 0;
             }
-            #follow_link{
+ #follow_link{
                 float: right;
-                height: 100%;
-                width:20%;
-                margin-right: 50px;
-                cursor: pointer;
-                
+                height: 25px;
+                width:10%;
+               float: right;
+               cursor: pointer;
+               right: 100px;
+               top:2px;
+               position: fixed;
+              
             }
-            .follow_icon{
-                width: 30px;
-                height: 30px;
-                border-radius: 17px;
-                margin-top: 20px;
+ .follow_icon{
+                width: 20px;
+                height: 20px;
+                border-radius: 10px;
+                margin-top:0px;
+                float: right;
+                margin-right: 5px;
                 position: relative;
                 cursor: pointer;
             }
-            a{
+    a{
                 text-decoration: none;
                 color: black;
             }
-            #login_bt{
+   #login_bt{
                 right:10px;
                 padding: 2px;
                 padding-left: 15px;
@@ -90,10 +132,10 @@
                 border-radius: 15px;
                 cursor: pointer;
             }
-            #login_bt:hover{
+  #login_bt:hover{
                 background-color: #2ecc71;
             }
-            #login_box{
+   #login_box{
                 right: 0px;
                 width: 300px;
                 height: 400px;
@@ -101,11 +143,11 @@
                 display: none;
                 position:fixed;
                 z-index: 1;
-                top:65px;
+                top:90px;
                 right: 0px;
                 
             }
-             input{
+  input{
                 width: 80%;
                 float: left;
                 margin-left: 8%;
@@ -115,7 +157,7 @@
                 color: grey;
                 
             }
-            #login_sbt{
+ #login_sbt{
               display: block;
               color: white;
               background-color:#4286f4;
@@ -125,7 +167,7 @@
               cursor: pointer;  
               width: 85%;
             }
-            #c_ac_bt{
+  #c_ac_bt{
               display: block;
               color: white;
               padding: 9px;
@@ -138,7 +180,7 @@
               text-align: center;
               margin-left: 8%;
             }
-            #user_icon{
+ #user_icon{
                 width: 40px;
                 height: 40px;
                 position: absolute;
@@ -146,7 +188,7 @@
                 top:10px;
                 border-radius: 20px;
             }
-            #user_box{
+ #user_box{
                 right: 0px;
                 width: 270px;
                 height: 400px;
